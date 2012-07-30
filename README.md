@@ -15,7 +15,7 @@ Click the links below for more information on the technologies used in this samp
 * Blog Post - [Adding new Shortened URLs from the iOS Client](http://chrisrisner.com/Windows-Azure-Websites-and-Mobile-Clients-Part-5--The-iOS-Client-Finished).
 
 #Specifying your site's subdomain.
-Once you've set up your PHP backend with Windows Azure Websites, you will need to enter your site's subdomain into the source/ShortifierDemo/Constants.m file.  Replace all of the <your-subdomain> with the subdomain of the site you set up.
+Once you've set up your PHP backend with Windows Azure Websites, you will need to enter your site's subdomain into the source/ShortifierDemo/Constants.m file.  Replace all of the \<your-subdomain\> with the subdomain of the site you set up.
 
     NSString *kShortifierRootUrl = @"http://<your-subdomain>.azurewebsites.net/";
     NSString *kGetAllUrl = @"http://<your-subdomain>.azurewebsites.net/api-getall";
