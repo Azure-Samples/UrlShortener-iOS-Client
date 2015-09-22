@@ -1,3 +1,9 @@
+---
+services:
+platforms:
+author: azure
+---
+
 # URL Shortener - The iOS Client
 This is an iOS client for a URL Shortening service.  The client depends on a web service backend written in PHP which is [available here](https://github.com/WindowsAzure-Samples/UrlShortener-PHP).  Once the PHP site is up and running in Windows Azure Websites, the iOS client will allow users to view shortened URLs as well as adding their own.  This sample was built using XCode and the iOS Framework.
 
